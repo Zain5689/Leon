@@ -175,6 +175,13 @@ body{
       text-align: center;
 }
 
+
+@media (max-width: 768px) {
+      .Feature .feat{
+            margin-left: -50px;
+      }         
+}
+
 .Feature .feat i{
       color: #10cab7;
       text-align: center;
@@ -190,5 +197,11 @@ body{
     line-height: 1.8;
     color: #777;
 }
+
+@media (max-width: 768px) {
+      .Feature .feat p{
+            margin-left: 0;
+      }}
+
 /* <!--end Feature--> */
 
